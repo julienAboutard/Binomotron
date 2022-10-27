@@ -37,7 +37,7 @@ def take_two(listdb) :
 #Fonction qui créer la liste randoom de binômes et si la liste initiale est impair ajoute un trinôme à la fin  
 def liste_random(listdb):
     rep=[]
-    while(len(listdb)>3) :
+    while(len(listdb)>3 and len(listdb)!=2) :
         listdb, tup=take_two(listdb)
         rep.append(tup)
     if len(listdb)==3 :
