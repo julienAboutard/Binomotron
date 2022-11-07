@@ -26,6 +26,8 @@ val = [
   ("Ouarti", "Nawel"),
   ("Paris", "Dorine"),
   ("Wittman", "Christelle"),
+  # ('Test', '1'),
+  # ('Test', '2')
   ]
 mycursor.executemany(sql, val)
 
